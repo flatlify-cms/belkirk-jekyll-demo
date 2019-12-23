@@ -47,3 +47,5 @@ fields:
     schema:
       format: markdown
   label: Body
+pages:
+- _posts/qweqwe.md
