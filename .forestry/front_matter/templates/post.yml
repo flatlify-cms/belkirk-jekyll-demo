@@ -48,4 +48,5 @@ fields:
       format: markdown
   label: Body
 pages:
+- _posts/_drafts/draft-post.md
 - _posts/qweqwe.md
