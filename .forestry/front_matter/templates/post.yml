@@ -47,6 +47,52 @@ fields:
     schema:
       format: markdown
   label: Body
+- name: single_media
+  type: file
+  config:
+    maxSize: 250
+  label: Single media
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+- name: field_group
+  type: field_group
+  config: {}
+  fields:
+  - name: text1
+    type: text
+    config:
+      required: false
+    label: Text1
+  label: Field group
+- name: repeatable_field_group
+  type: field_group_list
+  fields:
+  - name: images
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: images
+  - name: blocks
+    type: blocks
+    label: Blocks
+    template_types: []
+    config:
+      min: 
+      max: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Repeatable field group
+- name: product
+  type: include
+  config: {}
+  template: products
+  label: Product
 pages:
 - _posts/_drafts/draft-post.md
 - _posts/qweqwe.md
