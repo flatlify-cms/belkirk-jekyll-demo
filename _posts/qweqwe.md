@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first post (update1)
+title: My first post (update2)
 sub_heading: my subheading
 date: 2019-12-09T05:00:00Z
 tags: []
