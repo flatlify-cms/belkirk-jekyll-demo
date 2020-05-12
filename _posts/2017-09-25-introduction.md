@@ -1,6 +1,6 @@
 ---
 title: Welcome to the Forestry Demo Site!
-date: 2017-09-25 09:09:13 +0000
+date: 2017-09-25T09:09:13.000+00:00
 related_posts:
 - _posts/2017-02-12-modern.md
 - _posts/2017-08-01-welcome.md
@@ -10,6 +10,10 @@ tags:
 - Forestry
 layout: post
 banner_image: ''
+gallery:
+- "/uploads/2020/05/01/Screen Shot 2020-04-22 at 1.16.47 PM.png"
+- "/uploads/2020/05/01/Screen Shot 2020-04-22 at 1.44.40 PM.png"
+
 ---
 Welcome to the Belkirk College of Engineering Demo Site!
 
