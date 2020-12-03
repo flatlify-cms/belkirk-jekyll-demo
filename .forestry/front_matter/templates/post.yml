@@ -50,7 +50,7 @@ fields:
 - name: single_media
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Single media
 - name: gallery
   type: image_gallery
